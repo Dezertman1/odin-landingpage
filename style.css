@@ -1,0 +1,141 @@
+/*
+Colors + Font Styles
+Font - Roboto 
+Hero / Footer Background - #1F2937
+Hero Main Text - 48px $F9FAF8 weight 900
+Hero Secondary Text / Header Link Text- 18px #E5E7EB
+Button / Call to Action Background  - #3882F6
+Information Header Text - 36px #1F2937 weight 900
+Quote Background Color - #E5E7EB
+Quote Text - 36px light italic #1F2937
+*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+/* Header */
+
+header {
+    background-color: #1F2937;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+  
+header ul {
+    display: inline-flex;
+    list-style: none;
+    color: #E5E7Eb;
+    font-size: 18px;
+    gap: 24px;
+}
+
+/* Hero */
+
+#hero {
+    background-color: #1F2937;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    padding: 50px;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 425px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 425px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#hero button {
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 15px;
+}
+  
+#hero button:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+#hero img {
+    box-shadow: 2px, 2px, #1F2937;
+}
+
+/* Info */
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#info {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#info li {
+    list-style: none;
+}
+
+#info img {
+    width: 250px ;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px rgba(137, 207, 240, .08);
+    align-items: center;
+}
+
+#info p {
+    width: 250px;
+    font-size: 16px;
+    color: #1F2937;
+    text-align: justify;
+    padding-top: 8px;
+    margin-bottom: 60px;
+    display: flex;
+}
