@@ -17,22 +17,21 @@ Quote Text - 36px light italic #1F2937
 }
 
 body {
+    margin: 0;
     border: 0;
     height: 100%;
     width: 100%;
-    margin: 0;
-    
 }
 
 /* Header */
 
 header {
-    background-color: #1F2937;
-    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
+    height: 72px;
+    background-color: #1F2937;
+}
   
 header h1 {
     font-size: 24px;
@@ -42,53 +41,52 @@ header h1 {
 header ul {
     display: inline-flex;
     list-style: none;
-    color: #E5E7EB;
-    font-size: 18px;
     gap: 24px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* Hero */
 
 #hero {
-    background-color: #1F2937;
-    height: 325px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
     flex-shrink: 1;
+    height: 325px;
     padding: 50px;
-    align-items: center;
+    background-color: #1F2937;
 }
 
 #hero h1 {
+    width: 425px;
+    margin: 0 auto;
+    padding: 15px;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    width: 425px;
-    padding: 15px;
-    margin: 0 auto;
 }
 
 #hero p {
+    width: 425px;
+    margin: 0 auto;
+    padding: 5px;
     font-size: 18px;
     color: #E5E7EB;
-    width: 425px;
-    padding: 5px;
-    margin: 0 auto;
 }
 
 #hero button {
-    background-color: #3882F6;
-    border: 1px solid #E5E7EB;
     width: 150px;
+    padding: 15px;
     font-size: 18px;
     font-weight: 800;
     color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
     border-radius: 8px;
-    padding: 15px;
 }
   
-
 #hero img {
     box-shadow: 2px 2px #1F2937;
 }
@@ -96,11 +94,11 @@ header ul {
 /* Info */
 
 .info-header {
+    margin: 20px;
+    padding: 20px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 20px;
-    padding: 20px;
     text-align: center;
     justify-content: space-evenly;
     flex-direction: row;
@@ -108,10 +106,10 @@ header ul {
 
 #info {
     display: flex;
-    height: 350px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    height: 350px;
 }
 
 .info-item {
@@ -130,63 +128,59 @@ header ul {
 
 .info-item .caption {
     width: 100%;
+    margin: 8px;
     font-size: 16px;
     color: #1F2937;
     text-align: center;
-    margin: 8px;
 }
 
 /* Quote */
 
 #quote {
-    background-color: #E5E7EB;
-    padding: 64px;
-    margin: 40px auto;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    margin: 40px auto;
+    padding: 64px;
+    background-color: #E5E7EB;
 }
 
 #quote-text {
+    margin-bottom: 16px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
     text-align: center;
-    margin-bottom: 16px;
 }
 
 #quote-author {
+    width: 100%;
     font-size: 24px;
     color: #1F2937;
+    text-align: right;
     justify-content: flex-end;
     align-self: flex-end;
-    text-align: right;
-    width: 100%;
 }
 
 /* Call to Action */
 
 #action {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 64px;
-    margin-bottom: 64px;
-    background-color: #3882F6;
     display: flex;
-    border-radius: 14px;
-    padding: 84px;
     justify-content: space-around;
     align-items: center;
-
+    margin: 64px 10%;
+    padding: 84px;
+    background-color: #3882F6;
+    border-radius: 14px;
 }
 
 #action h1 {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
+    color: #F9FAF8;
     font-family: "Roboto";
 }
 
@@ -197,29 +191,25 @@ header ul {
 
 #action-button {
     max-width: fit-content;
+    height: fit-content;
     padding: 8px;
     font-size: 18px;
     color: #ffffff;
-    border-color: #FFFFFF;
     background-color: #3882f6;
+    border: 4px solid #FFFFFF;
     border-radius: 6px;
-    border-width: 4px;
-    border-style: solid;
-    height: fit-content;
 }
-
 
 /* Footer */
 
 footer {
-    color: #E5E7EB;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-    height: 72px;
     display: flex;
     align-items: center;
-  }
+    justify-content: center;
+    height: 72px;
+    padding: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
